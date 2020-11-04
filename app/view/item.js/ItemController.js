@@ -3,12 +3,6 @@ Ext.define('TutorialApp.view.item.ItemController', {
 	alias: 'controller.item',
 
 	init: function() {
-		//var form = me.up('window').down('form')
-		//console.log(this.up('window'))
-
-		// console.log(me.up('window').down('form'))
-		// console.log(me.up('window').down('form').getForm())
-		// console.log(me.up('window').down('form').getForm().getValues())
 	},
 
 	onAbortClicked: function() {
@@ -21,8 +15,6 @@ Ext.define('TutorialApp.view.item.ItemController', {
 		console.log(fromWho)
 		console.log(typeof(fromWho))
 		var id = Ext.getCmp('productID').getValue(id);
-		
-		
 		//console.log(Ext.getCmp('item'))
 		var price = +(Ext.getCmp('productPrice').getValue(price));
 		var quality = +(Ext.getCmp('productQuality').getValue(quality));
@@ -46,18 +38,6 @@ Ext.define('TutorialApp.view.item.ItemController', {
 				Ext.Msg.alert('Все пучком','Изменений нет')
 				
 			}	
-
-
-			// store.sync({
-			// 	succes: function(){
-			// 		store.load()
-			// 	}
-			// })
-			// .setData(
-			// [
-			// 	{'price' : price, 'quality':quality},
-			// ]
-			// )
 		}
 		
 

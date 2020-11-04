@@ -29,14 +29,6 @@ Ext.define('TutorialApp.Application', {
         Ext.create({
             xtype: loggedIn ? 'app-main' : 'login'
         });
-        // Показать окно товара
-        //var showItem;
-
-        //showItem = localStorage.getItem("ShowItems");
-
-        // Ext.create({
-        //     xtype: 'item'
-        // })
     },
 
     onAppUpdate: function () {

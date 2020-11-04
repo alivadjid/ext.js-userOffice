@@ -47,21 +47,6 @@ Ext.define('TutorialApp.view.item.Item' , {
 			name: 'quality',
 			fieldLabel: 'Кол-во',
 			allowBlank: false,
-			// listeners: {
-			// 	afterRender: function(comp) {
-			// 		//console.log('work');
-			// 		console.log(comp);
-			// 		var element = comp.getEl();
-			// 		console.log(element)
-			// 		element.on('keydown', 'quaValCheck'/*function(e,el){
-			// 			console.log('-------------e------------')
-			// 			console.log(e);
-			// 			console.log('=-= el =-=')
-			// 			console.log(el);
-						
-			// 		}*/)
-			// 	}
-			//}
 		}],
 		buttons: [{
 			text: 'Сохранить',

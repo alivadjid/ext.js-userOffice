@@ -47,12 +47,6 @@ Ext.define('TutorialApp.store.Personnel', {
           quality: "0"
         }
     ]},
-    // filters: [
-    //   function test(description) {
-    //       description = 'Hello from filet';
-    //       return description;
-    //   }
-  // ],
     proxy: {
         type: 'memory',
         reader: {

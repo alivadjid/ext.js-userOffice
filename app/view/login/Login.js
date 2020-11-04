@@ -37,9 +37,6 @@ Ext.define('TutorialApp.view.login.Login', {
 		text: 'Войти',
 		formBind: true,
 		listeners: {
-			// click: function onLoginClick(username, password) {
-			// 	Ext.Msg.alert('Ура!' + username);
-			// }
 			click:  'onLoginClick',
 				
 			
